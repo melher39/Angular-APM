@@ -47,7 +47,7 @@
                         <td>{{ product.releaseDate }}</td>
                         <td>{{ product.price | currency:"USD":"symbol":"1.2-2" }}</td>
                         <td>
-                            <pm-star></pm-star>
+                            <pm-star [rating]="product.starRating"></pm-star>
                         </td>
                     </tr>
                 </tbody>
