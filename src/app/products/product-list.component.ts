@@ -8,6 +8,7 @@ import { ProductService } from "./product.service";
     styleUrls: ["./product-list.component.css"]
 })
 export class ProductListComponent implements OnInit {
+    // service
     constructor(private productService: ProductService) {
     }
     pageTitle: string = "Product List";
